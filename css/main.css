@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.app {
+    margin-top: 100px;
+}
+h1, .todo-form, .todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style-type: none;
+}
+.todo-list {
+    margin-top: 35px;
+}
+.todo-input {
+    height: 27px;
+}
+.todo-div {
+    display: flex;
+    width: 200px;
+    margin: 10px 0;
+}
+.todo-item {
+    width: 144px;
+    background: #EF4AB9;
+    padding: 0 7px;
+}
+i {
+    pointer-events: none;
+}
